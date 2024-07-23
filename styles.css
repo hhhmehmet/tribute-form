@@ -1,3 +1,51 @@
-*{
+body,h1,h2,p,ul { 
+    margin: 0;
+    padding: 0;
+    }
     
-}
+    body{
+        background-color: aqua;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    #image{
+        display: block;
+        margin: auto; 
+        max-width: 100%;
+        width: 85%;
+        border-radius: 20%;
+        box-shadow: 0 4px rgba(red, green, blue, alpha);
+    }
+    #title {
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 20px;
+    
+    }
+    
+    #img-caption{
+        text-align: center;
+        margin-top: 10px;
+        font-style: italic;
+        color:hwb(from color h w b)
+    }
+    
+    /* Styling the tribute information section */
+    #tribute-info {
+        margin-top: 20px;
+        text-align: center; /* Aligning text within the tribute information */
+      }
+      
+      /* Styling the tribute link */
+      #tribute-link {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #ff0000; /* Blue color */
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+        text-align: center; /* Aligning text within the tribute link */
+      }
+      
+      #tribute-link:hover {
+        background-color: #01060b; /* Darker blue on hover */
+      }
